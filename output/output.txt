@@ -1,0 +1,288 @@
+PRE-PROCESSING DATA...
+-------------------------------------
+
+----------------------
+|| SPLIT = 0.9/0.1 ||
+----------------------
+
+-------------------------------------
+Naive Bayes
+-------------------------------------
+
+Total number of emails in test set = 4655
+Total number of correct predictions = 4456
+Accuracy = 0.9572502685284641
+Precision = 0.9424943988050785
+Recall = 0.911849710982659
+F1 Score = 0.9269188395152407
+
+-------------------------------------
+KNN (k=1)
+-------------------------------------
+
+-------------------------------------L-1 metric-------------------------------------
+Total number of emails in test set = 4655
+Total number of correct predictions = 3015
+Accuracy = 0.6476906552094522
+Precision = 0.9970126960418223
+Recall = 0.44934365533490406
+F1 Score = 0.6194895591647331
+
+-------------------------------------L-2 metric-------------------------------------
+Total number of emails in test set = 4655
+Total number of correct predictions = 3744
+Accuracy = 0.804296455424275
+Precision = 0.9529499626587006
+Recall = 0.60075329566855
+F1 Score = 0.7369332948310714
+
+-------------------------------------L-inf metric-------------------------------------
+Total number of emails in test set = 4655
+Total number of correct predictions = 3665
+Accuracy = 0.7873254564983888
+Precision = 0.39955190440627336
+Recall = 0.7420249653259362
+F1 Score = 0.5194174757281553
+
+-------------------------------------
+KNN (k=5)
+-------------------------------------
+
+-------------------------------------L-1 metric-------------------------------------
+Total number of emails in test set = 4655
+Total number of correct predictions = 2899
+Accuracy = 0.6227712137486574
+Precision = 0.9992531740104555
+Recall = 0.4325897187196896
+F1 Score = 0.6037906137184116
+
+-------------------------------------L-2 metric-------------------------------------
+Total number of emails in test set = 4655
+Total number of correct predictions = 3578
+Accuracy = 0.7686358754027927
+Precision = 0.9768483943241225
+Recall = 0.5556499575191164
+F1 Score = 0.7083671811535337
+
+-------------------------------------L-inf metric-------------------------------------
+Total number of emails in test set = 4655
+Total number of correct predictions = 3577
+Accuracy = 0.7684210526315789
+Precision = 0.30097087378640774
+Recall = 0.7394495412844037
+F1 Score = 0.42781316348195325
+
+----------------------
+|| SPLIT = 0.8/0.2 ||
+----------------------
+
+-------------------------------------
+Naive Bayes
+-------------------------------------
+
+Total number of emails in test set = 4138
+Total number of correct predictions = 3367
+Accuracy = 0.8136781053649106
+Precision = 0.9864750633981403
+Recall = 0.6071800208116546
+F1 Score = 0.7516908212560387
+
+-------------------------------------
+KNN (k=1)
+-------------------------------------
+
+-------------------------------------L-1 metric-------------------------------------
+Total number of emails in test set = 4138
+Total number of correct predictions = 2950
+Accuracy = 0.7129047849202513
+Precision = 0.9864750633981403
+Recall = 0.4989311671654553
+F1 Score = 0.6626916524701875
+
+-------------------------------------L-2 metric-------------------------------------
+Total number of emails in test set = 4138
+Total number of correct predictions = 3511
+Accuracy = 0.8484775253745771
+Precision = 0.9492814877430262
+Recall = 0.6644970414201183
+F1 Score = 0.7817612252001392
+
+-------------------------------------L-inf metric-------------------------------------
+Total number of emails in test set = 4138
+Total number of correct predictions = 3177
+Accuracy = 0.7677622039632673
+Precision = 0.937447168216399
+Recall = 0.5556112224448898
+F1 Score = 0.6977036804026424
+
+-------------------------------------
+KNN (k=5)
+-------------------------------------
+
+-------------------------------------L-1 metric-------------------------------------
+Total number of emails in test set = 4138
+Total number of correct predictions = 2419
+Accuracy = 0.584581923634606
+Precision = 0.9974640743871513
+Recall = 0.4074585635359116
+F1 Score = 0.5785731797009072
+
+-------------------------------------L-2 metric-------------------------------------
+Total number of emails in test set = 4138
+Total number of correct predictions = 3212
+Accuracy = 0.7762203963267279
+Precision = 0.9560439560439561
+Recall = 0.5640897755610973
+F1 Score = 0.7095357590966124
+
+-------------------------------------L-inf metric-------------------------------------
+Total number of emails in test set = 4138
+Total number of correct predictions = 2954
+Accuracy = 0.7138714354760753
+Precision = 0.9492814877430262
+Recall = 0.4997774810858923
+F1 Score = 0.6548104956268221
+
+----------------------
+|| SPLIT = 0.7/0.3 ||
+----------------------
+
+-------------------------------------
+Naive Bayes
+-------------------------------------
+
+Total number of emails in test set = 3621
+Total number of correct predictions = 2871
+Accuracy = 0.7928748964374482
+Precision = 0.9848771266540642
+Recall = 0.5867117117117117
+F1 Score = 0.7353563867325335
+
+-------------------------------------
+KNN (k=1)
+-------------------------------------
+
+-------------------------------------L-1 metric-------------------------------------
+Total number of emails in test set = 3621
+Total number of correct predictions = 2684
+Accuracy = 0.7412317039491854
+Precision = 0.9914933837429112
+Recall = 0.5306019221041983
+F1 Score = 0.6912685337726524
+
+-------------------------------------L-2 metric-------------------------------------
+Total number of emails in test set = 3621
+Total number of correct predictions = 3106
+Accuracy = 0.8577740955537144
+Precision = 0.9404536862003781
+Recall = 0.6876295784381479
+F1 Score = 0.7944111776447106
+
+-------------------------------------L-inf metric-------------------------------------
+Total number of emails in test set = 3621
+Total number of correct predictions = 2918
+Accuracy = 0.8058547362607015
+Precision = 0.47542533081285443
+Recall = 0.7726574500768049
+F1 Score = 0.5886483323581041
+
+-------------------------------------
+KNN (k=5)
+-------------------------------------
+
+-------------------------------------L-1 metric-------------------------------------
+Total number of emails in test set = 3621
+Total number of correct predictions = 2225
+Accuracy = 0.6144711405689036
+Precision = 0.996219281663516
+Recall = 0.4309076042518397
+F1 Score = 0.6015981735159818
+
+-------------------------------------L-2 metric-------------------------------------
+Total number of emails in test set = 3621
+Total number of correct predictions = 2878
+Accuracy = 0.7948080640706987
+Precision = 0.9735349716446124
+Recall = 0.5902578796561605
+F1 Score = 0.7349268640742064
+
+-------------------------------------L-inf metric-------------------------------------
+Total number of emails in test set = 3621
+Total number of correct predictions = 2636
+Accuracy = 0.727975697321182
+Precision = 0.6540642722117203
+Recall = 0.5278413424866514
+F1 Score = 0.5842127479949345
+
+----------------------
+|| SPLIT = 0.6/0.4 ||
+----------------------
+
+-------------------------------------
+Naive Bayes
+-------------------------------------
+
+Total number of emails in test set = 3104
+Total number of correct predictions = 2697
+Accuracy = 0.8688788659793815
+Precision = 0.553072625698324
+Recall = 0.9860557768924303
+F1 Score = 0.7086614173228347
+
+-------------------------------------
+KNN (k=1)
+-------------------------------------
+
+-------------------------------------L-1 metric-------------------------------------
+Total number of emails in test set = 3104
+Total number of correct predictions = 2407
+Accuracy = 0.7754510309278351
+Precision = 0.9843575418994414
+Recall = 0.5632992327365729
+F1 Score = 0.7165514436762911
+
+-------------------------------------L-2 metric-------------------------------------
+Total number of emails in test set = 3104
+Total number of correct predictions = 2708
+Accuracy = 0.8724226804123711
+Precision = 0.9363128491620112
+Recall = 0.7119796091758709
+F1 Score = 0.8088803088803089
+
+-------------------------------------L-inf metric-------------------------------------
+Total number of emails in test set = 3104
+Total number of correct predictions = 2539
+Accuracy = 0.8179768041237113
+Precision = 0.9418994413407821
+Recall = 0.6216814159292036
+F1 Score = 0.7490004442470014
+
+-------------------------------------
+KNN (k=5)
+-------------------------------------
+
+-------------------------------------L-1 metric-------------------------------------
+Total number of emails in test set = 3104
+Total number of correct predictions = 2030
+Accuracy = 0.6539948453608248
+Precision = 0.9910614525139665
+Recall = 0.4541730670762929
+F1 Score = 0.6228932584269663
+
+-------------------------------------L-2 metric-------------------------------------
+Total number of emails in test set = 3104
+Total number of correct predictions = 2534
+Accuracy = 0.8163659793814433
+Precision = 0.9564245810055866
+Recall = 0.6171593366979091
+F1 Score = 0.7502191060473269
+
+-------------------------------------L-inf metric-------------------------------------
+Total number of emails in test set = 3104
+Total number of correct predictions = 2633
+Accuracy = 0.8482603092783505
+Precision = 0.6960893854748603
+Recall = 0.7579075425790754
+F1 Score = 0.7256843331391962
+
+Program completed in 7030.207628 seconds (117.17012713333334 minutes).

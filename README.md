@@ -14,7 +14,7 @@ The program splits emails in training and test sets of various sizes to compare 
 As the above graph shows, although there were some differences about each split, the best classifiers were Naive Bayes and KNN L-2. KNN L-1 performed significantly worse. Considering that the run time of Naive Bayes is the fastest, this is the favorite method. 
 
 ## HOW TO RUN
-Run `python main.py` or `python main.py --> output.txt` if you wish the results to be saved in a text file, otherwise they will be printed on the terminal.
+Unzip the data folder and run `python main.py` or `python main.py --> output.txt` if you wish the results to be saved in a text file, otherwise they will be printed on the terminal.
 
 Note that the program assumes that the txt files are already separated between spam/ham, in the format of the files in the data folder. 
 

@@ -1,7 +1,7 @@
 # SPAM CLASSIFIER
 
 ## DESCRIPTION
-This program takes a set of labelled emails (spam/ham) and uses Machine Learning algorithms that is able to classify them automatically. 
+This program takes a set of labelled emails (spam/ham) and uses Machine Learning algorithms that are able to classify them automatically. 
 
 ## METHODS
 The program splits emails in training and test sets of various sizes to compare performances of classifiers using Naive Bayes and K-Nearest Neighbors using L1, L2, and L-inf metrics (k=1, k=5). It uses accuracy and F1 scores to measure performance and outputs a set of graphs with performance scores.
